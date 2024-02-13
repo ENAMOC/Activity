@@ -7,26 +7,20 @@
 
   <title>ACTIVITY</title>
   <style>
-    .content {
-      display:grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    width: 100%;
-    flex-direction: center;
+   .content {
+     display:flex;
+     border-radius: 20px;
+    }
+  .content1 {
+    display:flex;
     border-radius: 20px;
-    }
-    
-    .footer {
-      
-      align-content:center;
-      text-align: center;
-      width: 100%;
-    } 
-    .main {
-      padding: 20px;
-      width:100%;
-    }
+  }
+ 
+ .main {
+   width: 100%;
+   padding:10px;
+ }
+
   </style>
 
 </head>
@@ -37,60 +31,78 @@
   <input type="text" placeholder="Search..." name="search">
   <button type="submit">Search</button>
 </form>
-
 </div>
+
+
+
+
+<!--- for main -->
 
 <div class="main">
-<div class="content">
-<div class="video1">
+  <div class="content">
+    
+ <div class="video1">
   <video width="640" height="360" controls autoplay muted>
-  <source src="/video/Fashion.mp4" type="video/mp4">
-</video>
+    <source src="/video/Fashion.mp4" type="video/mp4">
+  </video>
 
 </div>
-<!---->
+<!----->
+
 <div class="video2">
   <video width="640" height="360" controls autoplay muted>
-  <source src="/video/Model.mp4" type="video/mp4">
-</video>
+    <source src="/video/glam.mp4" type="video/mp4">
+  </video>
 
 </div>
-<!---->
+<!----->
+
 <div class="video3">
   <video width="640" height="360" controls autoplay muted>
-  <source src="/video/Beverage.mp4" type="video/mp4">
-</video>
-
-</div>
-<!---->
-<div class="video4">
-  <video width="640" height="360" controls autoplay muted>
-  <source src="/video/Meal.mp4" type="video/mp4">
-</video>
-
-</div>
-<!---->
-<div class="video5">
-  <video width="640" height="360" controls autoplay muted>
-  <source src="/video/streetwearMen.mp4" type="video/mp4">
-</video>
-
-</div>
-<div class="video6">
-  <video width="640" height="360" controls autoplay muted>
-  <source src="/video/glam.mp4" type="video/mp4">
-</video>
-
-</div><!---->
-
+    <source src="/video/Beverage.mp4" type="video/mp4">
+  </video>
 </div>
 
+
+  </div>
+  
+  <!--- second-->
+  
+    <div class="content1">
+  
+      <div class="video4">
+        <video width="640" height="360" controls autoplay muted>
+          <source src="/video/Meal.mp4" type="video/mp4">
+        </video>
+  
+      </div>
+      <!----->
+  
+      <div class="video5">
+        <video width="640" height="360" controls autoplay muted>
+          <source src="/video/Model.mp4" type="video/mp4">
+        </video>
+  
+      </div>
+      <!----->
+  
+      <div class="video6">
+        <video width="640" height="360" controls autoplay muted>
+          <source src="/video/streetwearMen.mp4" type="video/mp4">
+        </video>
+      </div>
+  
+  
+    </div>
+  
+  
+  
+  
+  
 </div>
-<div class="footer">
-  <h1>
-    copyright -- Eddelito Namoc --
-  </h1>
-</div>
+
+
+
 
 
 
