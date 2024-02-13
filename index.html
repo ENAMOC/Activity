@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ACTIVITY</title>
+  <style>
+    .content {
+      display:grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    flex-direction: center;
+    border-radius: 20px;
+    }
+    
+    .footer {
+      
+      align-content:center;
+      text-align: center;
+      width: 100%;
+    }
+
+  </style>
+
+</head>
+<body>
+  
+<div class="header">
+  <form action="/search" method="get">
+  <input type="text" placeholder="Search..." name="search">
+  <button type="submit">Search</button>
+</form>
+
+</div>
+
+
+<div class="content">
+<div class="video1">
+  <video width="640" height="360" controls autoplay muted>
+  <source src="/video/Fashion.mp4" type="video/mp4">
+</video>
+
+</div>
+<!---->
+<div class="video2">
+  <video width="640" height="360" controls autoplay muted>
+  <source src="/video/Model.mp4" type="video/mp4">
+</video>
+
+</div>
+<!---->
+<div class="video3">
+  <video width="640" height="360" controls autoplay muted>
+  <source src="/video/Beverage.mp4" type="video/mp4">
+</video>
+
+</div>
+<!---->
+<div class="video4">
+  <video width="640" height="360" controls autoplay muted>
+  <source src="/video/Meal.mp4" type="video/mp4">
+</video>
+
+</div>
+<!---->
+<div class="video5">
+  <video width="640" height="360" controls autoplay muted>
+  <source src="/video/streetwearMen.mp4" type="video/mp4">
+</video>
+
+</div>
+<div class="video6">
+  <video width="640" height="360" controls autoplay muted>
+  <source src="/video/glam.mp4" type="video/mp4">
+</video>
+
+</div><!---->
+
+</div>
+
+<div class="footer">
+  <h1>
+    copyright -- Eddelito Namoc --
+  </h1>
+</div>
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
